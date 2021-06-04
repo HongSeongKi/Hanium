@@ -1,5 +1,6 @@
 package com.example.hanium
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -11,13 +12,19 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         signInBtn.setOnClickListener {
-            var email:String? = null
-            var passWord:String? = null
+            var email: String? = null
+            var passWord: String? = null
             email = loginEmail.text.toString()
             passWord = loginPassword.text.toString()
 
-            Log.d("login","login btn click")
-
+            Log.d("login", "login btn click")
         }
+
+        signUpBtn.setOnClickListener {
+            val intent = Intent(this,SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
