@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:padding="40dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@color/burgundy"
+        android:text="@string/sign_up">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/form">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/sign_up_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_edit_text_light_gray"
+                    android:cursorVisible="true"
+                    android:drawablePadding="15dp"
+                    android:hint="@string/login_id"
+                    android:importantForAutofill="no"
+                    android:inputType="textNoSuggestions"
+                    tools:ignore="LabelFor"
+                    android:textSize="15sp"
+                    android:textColorHint="@color/gray"
+                    android:elevation="3dp"/>
+
+                <Button
+                    android:id="@+id/sign_up_email_check_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bg_button_border_burgundy"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="10dp"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:text="중복체크"
+                    android:textColor="@color/burgundy"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/sign_up_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:drawablePadding="15dp"
+                android:cursorVisible="true"
+                android:hint="@string/login_password"
+                android:importantForAutofill="no"
+                android:inputType="textNoSuggestions|textPassword"
+                tools:ignore="LabelFor"
+                android:textSize="15sp"
+                android:textColorHint="@color/gray"
+                android:background="@drawable/custom_edit_text_light_gray"
+                android:elevation="3dp"/>
+
+            <EditText
+                android:id="@+id/sign_up_check_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:drawablePadding="15dp"
+                android:cursorVisible="true"
+                android:hint="@string/login_password"
+                android:importantForAutofill="no"
+                android:inputType="textNoSuggestions|textPassword"
+                tools:ignore="LabelFor"
+                android:textSize="15sp"
+                android:textColorHint="@color/gray"
+                android:background="@drawable/custom_edit_text_light_gray"
+                android:elevation="3dp"/>
+
+            <EditText
+                android:id="@+id/sign_up_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:drawablePadding="15dp"
+                android:cursorVisible="true"
+                android:hint="@string/user_name"
+                android:importantForAutofill="no"
+                android:inputType="textNoSuggestions"
+                tools:ignore="LabelFor"
+                android:textSize="15sp"
+                android:textColorHint="@color/gray"
+                android:background="@drawable/custom_edit_text_light_gray"
+                android:elevation="3dp"/>
+
+
+            <Button
+                android:id="@+id/sign_up_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="50dp"
+                android:background="@drawable/button_background_burgundy"
+                android:text="@string/sign_up"
+                android:textColor="#ffffff"
+                android:textSize="20dp">
+
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

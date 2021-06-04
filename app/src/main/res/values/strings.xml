@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Hanium</string>
+    <string name="login_id">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_activity_title">로그인</string>
+    <string name="auto_login">자동 로그인</string>
+    <string name="sign_in">로그인</string>
+    <string name="sign_up">회원 가입</string>
+    <string name="ask_sign_up">아직 회원이 아니십니까?  <u><b>가입하기</b></u></string>
+    <string name="double_check">중복 체크</string>
+    <string name="user_name">이름</string>
+    <string name="user_department">소속</string>
+    <string name="login_err">로그인 에러</string>
+    <string name="login_err_message">아이디와 비밀번호가 일치하지 않습니다.</string>
+    <string name="confirm">확인</string>
+    <string name="logout">로그아웃</string>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="password_check">비밀번호 확인</string>
+    <string name="change">변경</string>
+    <string name="change_confirm">수정 완료</string>
 </resources>
