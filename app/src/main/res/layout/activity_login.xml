@@ -24,7 +24,7 @@
                 android:layout_weight="2"
                 android:gravity="center|bottom"
                 android:paddingBottom="20dp"
-                android:text="VascoRoad"
+                android:text="Every Translation"
                 android:textColor="@color/burgundy"
                 android:textSize="35dp"
                 android:textStyle="bold"/>

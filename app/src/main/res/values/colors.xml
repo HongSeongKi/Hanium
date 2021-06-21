@@ -32,4 +32,6 @@
     <color name="heatmap_no2">#75FFF36F</color>
     <color name="heatmap_no3">#BFFFEB6F</color>
     <color name="heatmap_no4">#D5FFDF6F</color>
+
+    <color name="colorDivision">#e0e0e0</color>
 </resources>
